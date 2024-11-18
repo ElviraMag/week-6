@@ -1,0 +1,782 @@
+*{
+    margin: 10px;
+    padding: 0;
+
+}
+
+.header-line{
+display: grid;
+grid-template-columns: repeat(5,193px);
+grid-column-gap:180px;
+padding-top: 10px;
+}
+
+.nav{
+display: grid;
+margin: 0 100px;
+grid-template-columns: repeat(5,193px);
+margin-top: 25px;
+}
+
+.nav1{
+    color: rgb(84, 84, 84);
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+}
+
+.item-1{
+/* Home */
+text-decoration: none;
+width: 63px;
+height: 27px;
+color: rgb(31, 31, 31);
+}
+
+.item-2{
+ /* Services */
+    text-decoration: none;
+    width: 93px;
+    height: 27px;
+}
+
+.item-3{
+/* Contact */
+    width: 86px;
+    height: 27px;
+    text-decoration: none;
+}
+
+.item-4{
+/* Support */
+    width: 87px;
+    height: 27px;
+    text-decoration: none;
+}
+
+.button-sign{
+margin-top: -5px;
+margin-left: 80px;
+width: 176px;
+height: 60px;
+border-radius: 4px;
+font-family: Inter;
+background: rgb(31, 31, 31);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+
+.first-block{
+display: grid;
+padding-top: 100px;
+grid-template-columns: 200px 200px;
+grid-template-rows: 190px 190px 190px 300px;
+grid-column-gap:800px;
+row-gap: 30px;
+}
+
+.name-block{
+    /* Header */
+width: 933px;
+height: 161px;
+color: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 133px;
+font-weight: 500;
+line-height: 161px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.img-2{
+background-image: url(assets/img/Image\ 1.png);
+width: 500px;
+height: 410px;
+grid-row-start: 1;
+grid-column-start: 2;
+}
+
+.interior{
+    /* Sub-heading */
+width: 759px;
+height: 168px;
+color: rgb(84, 84, 84);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.img-1{
+background-image: url(assets/img/Image\ 2.png);
+width: 630px;
+height: 400px;
+grid-row-start: 3;
+grid-column-start: 2;
+margin-left: -200px;
+}
+
+.button-start{
+width: 302px;
+height: 86px;
+grid-row-start: 3;
+grid-column-start: 1;
+border-radius: 4px;
+background: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.text{
+display: grid;
+grid-template-columns: 190px 190px 190px;
+grid-template-rows:55px;
+column-gap: 99px;
+margin-top: 500px;
+margin-left: -1000px;
+}
+
+.p{
+color: rgb(84, 84, 84);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 0px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.par400{
+/* Project Complete */
+width: 180px;
+height: 116px;
+}
+
+.plus4{
+    width: 180px;
+    height: 116px;
+    color: rgb(84, 84, 84);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.par600{
+/* Satisfied Clients */
+width: 178px;
+height: 116px;
+margin-top:-125px;
+}
+
+.plus6{
+    width: 180px;
+    height: 116px;
+    color: rgb(84, 84, 84);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.par100{
+/* Unique Styles */
+width: 167px;
+height: 116px;
+}
+
+.plus10{
+    width: 180px;
+    height: 116px;
+    color: rgb(84, 84, 84);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.second-block{
+display: grid;
+padding-top: 10px;
+margin-left: 30px;
+grid-template-columns: 500px 500px 500px;
+grid-template-rows:repeat(2,55px);
+column-gap: 40px;
+row-gap: 30px;
+}
+
+.line{
+background-image: url(assets/img/Line\ 1.png);
+grid-row-start: 2;
+grid-column-start: 1;
+margin-top: 45px;
+width: 100px;
+height: 0;
+border: 3px solid rgb(31, 31, 31);
+}
+
+.services{
+/* Our Services */
+grid-row-start: 2;
+grid-column-start: 1;
+margin-left: 160px;
+width: 362px;
+height: 70px;
+color: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 58px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.icons{
+width: 72px;
+height: 70px;
+}
+
+.lighting{
+/* Lighting design icon */
+grid-row-start: 6;
+grid-column-start: 1;
+}
+
+.design{
+ /* Lighting Design */
+grid-row-start: 6;
+grid-column-start: 1;
+margin-left: 100px;
+width: 227px;
+height: 36px;
+color: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 30px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;  
+}
+
+.achieve{
+/* Achieve the perfect balance of ambient, task, and accent lighting for a functional atmosphere */
+grid-row-start: 7;
+grid-column-start: 1;
+width: 359px;
+height: 108px;
+color: rgb(84, 84, 84);
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;   
+}
+
+.interior-2{
+/* Interior design icon */
+grid-row-start: 6;
+grid-column-start: 2;   
+}
+
+.design-2{
+/* Interior Design */
+grid-row-start: 6;
+grid-column-start: 2;
+margin-left: 100px;
+width: 214px;
+height: 36px;
+color: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 30px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;    
+}
+
+.concept{
+/* From concept to completion, we oversee every detail to bring your vision to life efficiently */
+grid-row-start: 7;
+grid-column-start: 2;
+width: 359px;
+height: 108px;
+color: rgb(84, 84, 84);
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 165.2%;
+letter-spacing: 0%;
+text-align: left;    
+}
+
+.outdoor{
+/* Outdoor design icon */
+grid-row-start: 6;
+grid-column-start: 3;
+}
+
+.design-3{
+/* Outdoor Design */
+grid-row-start: 6;
+grid-column-start: 3;
+margin-left: 100px;
+width: 229px;
+height: 36px;
+color: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 30px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.seasons{
+/* Celebrate the changing seasons with our seasonal outdoor decor services */
+grid-row-start: 7;
+grid-column-start: 3;
+width: 359px;
+height: 108px;
+color: rgb(84, 84, 84);
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 165.2%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+.third-block{
+display: grid;
+grid-template-columns: 500px 200px;
+grid-template-rows:repeat(3,55px);
+gap: 50px;
+}
+
+.dream{
+/* Image */
+width: 100%;
+height: 100%;
+grid-row-start: 4;
+grid-column-start: 1;
+grid-row-end: 6;
+grid-column-end: 3;
+object-fit: cover;
+}
+
+.designing-dream{
+/* Designing Your Dream With Brilliance */
+grid-row-start: 4;
+grid-column-start: 3;
+width: 704px;
+height: 140px;
+color: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 58px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.spaces{
+/* Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience */
+grid-row-start: 4;
+grid-column-start: 3;
+margin-top: 190px;
+width: 722px;
+height: 120px;
+color: rgb(84, 84, 84);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 165.2%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.learn{
+grid-row-start: 6;
+grid-column-start: 3;
+margin-top: -120px;
+width: 275px;
+height: 80px;
+border-radius: 4px;
+background: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+
+
+.forth-block{
+display: grid;
+grid-template-columns: 100px 0;
+grid-template-rows:repeat(6,45px);
+column-gap: 10px;
+row-gap: 10px;
+}
+
+.steps{
+/* Designing Your Dream in Three Simple Steps */
+grid-row-start: 4;
+grid-column-start: 1;
+width: 704px;
+height: 140px;
+color: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 58px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.img{
+width: 72px;
+height: 72px;
+}
+
+.first{
+background-image: url(assets/svg/Group\ 25.svg);
+grid-row-start: 7;
+grid-column-start: 1;
+}
+
+.project{
+width: 186px;
+height: 36px;
+color: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.start{
+/* Start Project */
+grid-row-start: 7;
+grid-column-start: 1;
+margin-left:140px;
+}
+
+.one{
+width: 569px;
+height: 120px;
+color: rgb(84, 84, 84);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 165.2%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.embark{
+/* Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience */
+grid-row-start: 7;
+grid-column-start: 1;
+margin-top: 70px;
+margin-left:140px;
+}
+
+.second{
+background-image: url(assets/svg/Group\ 26.svg);
+grid-row-start: 12;
+grid-column-start: 1;
+}
+
+.craft{
+/* Craft */
+grid-row-start: 12;
+grid-column-start: 1;
+margin-left:140px;
+}
+
+.collaborate{
+/* Collaborate closely to achieve design excellence refining your vision and crafting brilliance into every aspect of your space */
+grid-row-start: 12;
+grid-column-start: 1;
+margin-top: 70px;
+margin-left:140px;
+}
+
+.third{
+background-image: url(assets/svg/Group\ 27.svg);
+grid-row-start: 16;
+grid-column-start: 1;
+}
+
+.execute{
+/* Execute */
+grid-row-start: 16;
+grid-column-start: 1;
+margin-left:140px;
+}
+
+.witness{
+/* Witness your vision becoming a reality as we execute the design plan with precision. Celebrate the joy of your newly transformed space */
+grid-row-start: 16;
+grid-column-start: 1;
+margin-top: 70px;
+margin-left:140px;
+}
+
+.designing-img{
+background-image: url(assets/img/Mask\ group\ 2.png);
+width: 695px;
+height: 850px;
+grid-row-start: 4;
+grid-column-start: 5;
+}
+
+
+
+.fifth-block{
+display: grid;
+}
+
+.customers{
+/* What Our Customers Say About Us */
+position: absolute;
+left: 814px;
+top: 4100px;
+width: 704px;
+height: 140px;
+white-space: pre-line;
+color: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 58px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.interior-3{
+background-image: url(assets/img/Mask\ group\ 3.png);
+width: 710px;
+height: 710px;
+position: absolute;
+top: 4120px;
+}
+
+.left{
+background-image: url(assets/img/Left\ arrow.png);
+width: 73px;
+height: 73px;
+position: absolute;
+top: 4870px;
+left:47px;
+}
+
+.right{
+background-image: url(assets/img/Right\ arrow.png);
+width: 73px;
+height: 73px;
+position: absolute;
+top: 4870px;
+left:170px;
+}
+
+.black-1{
+background-image: url(assets/img/Testamonial\ 1.png);
+width: 600px;
+height: 600px;
+position: absolute;
+top: 4337px;
+left: 301px;
+}
+
+.photo-1{
+background-image: url(assets/svg/Mask\ group\ sophie.svg);
+width: 72px;
+height: 73px;
+position: absolute;
+top: 4747px;
+left: 348px;
+}
+
+.black-2{
+background-image: url(assets/img/Testamonial\ 2.png);
+width: 600px;
+height: 600px;
+position: absolute;
+top: 4337px;
+left: 960px;
+}
+
+.photo-2{
+background-image: url(assets/svg/Mask\ group\ james.svg);
+width: 72px;
+height: 73px;
+position: absolute;
+top: 4747px;
+left: 1010px;
+}
+
+
+
+.footer{
+display: grid;
+background-image: url(assets/img/Rectangle\ 69.png);
+position: absolute;
+width: 1728px;
+height: 642px;
+margin-left: 10px;
+top: 5428px;
+background: rgb(31, 31, 31);
+}
+
+.subscribe{
+/* Subscribe to Our Newsletter for Design Insights */
+position: absolute;
+width: 849px;
+height: 140px;
+left: 380px;
+top: -370px;
+color: rgb(31, 31, 31);
+font-family: Inter;
+font-size: 58px;
+font-weight: 600;
+line-height: 70px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.discover-trends{
+/* Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox */
+position: absolute;
+width: 770px;
+height: 80px;
+left: 380px;
+top: -199px;
+color: rgb(84, 84, 84);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.adress{
+/* Rectangle 70 */
+position: absolute;
+width: 552px;
+height: 61px;
+left: 514px;
+top: -40px;
+border-radius: 4px;
+box-shadow: 0px 10px 100px 0px rgba(0, 0, 0, 0.14);
+background: rgb(255, 255, 255);
+}
+
+.email{
+/* Rectangle 1 */
+position: absolute;
+width: 175px;
+height: 54px;
+left: 893px;
+top: -36px;
+border-radius: 4px;
+background: rgb(31, 31, 31);
+}
+
+.logo-footer{
+position: absolute;
+width: 140.91px;
+height: 27.16px;
+left: 86.63px;
+top: 220px;
+}
+
+.vivadecor{
+/* VivaDecor your premier destination for luxury and modern interior design */
+position: absolute;
+width: 322px;
+height: 99px;
+left: 105px;
+top: 306px;
+color: rgb(209, 209, 209);
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 150.67%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.service-0{
+display: grid;
+grid-template-columns: 193px 193px 193px;
+column-gap: 147px;
+padding-left: 664px;
+padding-top: 80px;
+}
+
+.serv{
+width: 150px;
+height: 29px;
+left: 673px;
+top: 208px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.services-2{
+display: grid;
+grid-template-columns: 193px 193px 193px;
+grid-template-rows:repeat(4,55px);
+column-gap: 149px;
+padding-left: 664px;
+margin-top: -80px;
+}
+
+.our{
+color: rgb(209, 209, 209);
+font-family: Inter;
+font-size: 22px;
+font-weight: 500;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+height: 27px;
+width: 246px;
+}
